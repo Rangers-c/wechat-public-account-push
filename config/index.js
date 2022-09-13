@@ -69,21 +69,24 @@ export const config = {
       festivals: [ 
         {"type": "生日", "name": "本人生日", "year": "2000", "date": "01-14"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {"type": "节日", "name": "小王生日", "year": "2000", "date": "09-19"},
+        {"type": "节日", "name": "王哥生日", "year": "2000", "date": "09-19"},
         {"type": "节日", "name": "小李生日", "year": "2003", "date": "09-08"},
                  ],
       customizedDateList: []
     },
     {
-      name: "老婆2",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
+      name: "小王",
+      id: "otFwj6f6BcO-JXEChbGLKH2fQocE",
+      useTemplateId: "rrNcgHMzjdFnQa4moi33SGsKzlS8wTNsyGnyVZ-b9qw",
+      province: "甘肃",
+      city: "兰州",
+      horoscopeDate: '09-19',
+      horoscopeDateType: '今日',
+      //openUrl: "https://wangxinleo.cn",
+      festivals: [ {"type": "生日", "name": "本人生日", "year": "2000", "date": "01-14"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "节日", "name": "王哥生日", "year": "2000", "date": "09-19"},
+        {"type": "节日", "name": "小李生日", "year": "2003", "date": "09-08"},],
       customizedDateList: []
     },
     {
