@@ -26,6 +26,7 @@ export const config = {
       name: "媛宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "otFwj6Se1pkcyARnl8WgFyvcYOso",
+      id: "otFwj6d4uELBrEl3V1Aq3ZrduW8s",
       // 你想对他发送的模板消息的模板ID
       useTemplateId: "DhjrqH5DtCIkH9BNlk6Dm0ivzcwEW_T2hBOYzIDCsdg",
       // 所在省份
