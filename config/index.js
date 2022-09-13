@@ -60,7 +60,7 @@ export const config = {
     {
       name: "本人",
       id: "otFwj6Se1pkcyARnl8WgFyvcYOso",
-      useTemplateId: "DhjrqH5DtCIkH9BNlk6Dm0ivzcwEW_T2hBOYzIDCsdg",
+      useTemplateId: "rrNcgHMzjdFnQa4moi33SGsKzlS8wTNsyGnyVZ-b9qw",
       province: "甘肃",
       city: "兰州",
       horoscopeDate: '01-14',
