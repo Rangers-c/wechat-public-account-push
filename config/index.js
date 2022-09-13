@@ -42,7 +42,7 @@ export const config = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
        // {"type": "*生日", "name": "公主殿下旧历生日", "year": "2003", "date": "09-08"},
-        {"type": "生日", "name": "公主殿下生日", "year": "2003", "date": "09-08"},
+        {"type": "生日", "name": "公主殿下", "year": "2003", "date": "09-08"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "节日", "name": "小王生日", "year": "2000", "date": "09-19"},
         {"type": "节日", "name": "元旦", "year": "2021", "date": "01-01"},
@@ -67,7 +67,7 @@ export const config = {
       horoscopeDateType: '今日',
       //openUrl: "https://wangxinleo.cn",
       festivals: [ 
-        {"type": "生日", "name": "本人生日", "year": "2000", "date": "01-14"},
+        {"type": "生日", "name": "本人", "year": "2000", "date": "01-14"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "节日", "name": "王哥生日", "year": "2000", "date": "09-19"},
         {"type": "节日", "name": "小李生日", "year": "2003", "date": "09-08"},
@@ -83,7 +83,7 @@ export const config = {
       horoscopeDate: '09-19',
       horoscopeDateType: '今日',
       //openUrl: "https://wangxinleo.cn",
-      festivals: [ {"type": "生日", "name": "蔡哥生日", "year": "2000", "date": "01-14"},
+      festivals: [ {"type": "生日", "name": "蔡哥", "year": "2000", "date": "01-14"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "节日", "name": "王哥生日", "year": "2000", "date": "09-19"},
         {"type": "节日", "name": "小李生日", "year": "2003", "date": "09-08"},],
