@@ -25,9 +25,9 @@ export const config = {
       // 想要发送的人的名字
       name: "媛宝",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "otFwj6d4uELBrEl3V1Aq3ZrduW8s",
+      id: "",
             // 你想对他发送的模板消息的模板ID
-      useTemplateId: "DhjrqH5DtCIkH9BNlk6Dm0ivzcwEW_T2hBOYzIDCsdg",
+      useTemplateId: "",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -90,16 +90,23 @@ export const config = {
       customizedDateList: []
     },
     {
-      name: "老婆3",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
-      horoscopeDateType: '',
-      openUrl: "https://wangxinleo.cn",
-      festivals: [],
-      customizedDateList: []
+      name: "媛宝",
+      id: "otFwj6d4uELBrEl3V1Aq3ZrduW8s",
+      useTemplateId: "DhjrqH5DtCIkH9BNlk6Dm0ivzcwEW_T2hBOYzIDCsdg",
+      province: "甘肃",
+      city: "武威",
+      horoscopeDate: '09-08',
+      horoscopeDateType: '今日',
+      //openUrl: "https://wangxinleo.cn",
+      festivals: [
+        {"type": "生日", "name": "公主殿下", "year": "2003", "date": "09-08"},
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {"type": "节日", "name": "小王生日", "year": "2000", "date": "09-19"},
+        {"type": "节日", "name": "元旦", "year": "2021", "date": "01-01"},
+      ],
+      customizedDateList: [ 
+        {"keyword": "love_day", date: "2021-07-28"},
+      ]
     },
     // 你可以不断按格式往下增加
     // ...
