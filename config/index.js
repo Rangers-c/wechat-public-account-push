@@ -72,7 +72,9 @@ export const config = {
         {"type": "节日", "name": "王哥生日", "year": "2000", "date": "09-19"},
         {"type": "节日", "name": "小李生日", "year": "2003", "date": "09-08"},
                  ],
-      customizedDateList: []
+      customizedDateList: [
+        {"keyword":"comprehensive_horoscope.DATA",},
+      ]
     },
     {
       name: "小王",
