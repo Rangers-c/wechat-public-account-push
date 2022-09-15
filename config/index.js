@@ -25,9 +25,9 @@ export const config = {
       // 想要发送的人的名字
       name: "小马",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "",
+      id: "otFwj6achGETcBZXqGtZ-UrtDNRc",
             // 你想对他发送的模板消息的模板ID
-      useTemplateId: "",
+      useTemplateId: "lr8rUPOFO3ccou766ehZpmC9_9NYjBCTilrr62HleeM",
       // 所在省份
       province: "甘肃",
       // 所在城市
@@ -37,11 +37,10 @@ export const config = {
       // 获取什么时候的星座运势，可选：['今日', '明日', '本周', '本月', '今年'], 留空则随机
       horoscopeDateType: '今日',
       // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-      //openUrl: "https://wangxinleo.cn",
+      //openUrl: "",
       // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
       festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-       // {"type": "*生日", "name": "公主殿下旧历生日", "year": "2003", "date": "09-08"},
+        
         {"type": "生日", "name": "自己", "year": "2000", "date": "12-06"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         //{"type": "节日", "name": "小王生日", "year": "2000", "date": "09-19"},
@@ -65,7 +64,7 @@ export const config = {
       city: "兰州",
       horoscopeDate: '01-14',
       horoscopeDateType: '今日',
-      //openUrl: "https://wangxinleo.cn",
+      //openUrl: "",
       festivals: [ 
         {"type": "生日", "name": "本人", "year": "2000", "date": "01-14"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
@@ -84,7 +83,7 @@ export const config = {
       city: "兰州",
       horoscopeDate: '09-19',
       horoscopeDateType: '今日',
-      //openUrl: "https://wangxinleo.cn",
+      //openUrl: "",
       festivals: [ {"type": "生日", "name": "蔡哥", "year": "2000", "date": "01-14"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "节日", "name": "王哥生日", "year": "2000", "date": "09-19"},
@@ -99,8 +98,10 @@ export const config = {
       city: "武威",
       horoscopeDate: '09-08',
       horoscopeDateType: '今日',
-      //openUrl: "https://wangxinleo.cn",
+      //openUrl: "",
       festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+       // {"type": "*生日", "name": "公主殿下旧历生日", "year": "2003", "date": "09-08"},
         {"type": "生日", "name": "公主殿下", "year": "2003", "date": "09-08"},
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {"type": "节日", "name": "小王生日", "year": "2000", "date": "09-19"},
